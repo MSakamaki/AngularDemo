@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="smpl">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/ctrl.js"></script>
+	<title></title>
+</head>
+<body>
+	<div ng-controller="myCtrl">
+		<div>Hello {{say}} !</div>
+		</br>
+		<input type="text" ng-model="say" />
+		</hr>
+		<button ng-click="sayBtn()">BTN {{btntext}} !</button>
+	</div>
+</body>
+</html>
